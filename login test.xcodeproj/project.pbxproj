@@ -13,6 +13,8 @@
 		834390041A7DF4F60062CBD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834390031A7DF4F60062CBD0 /* Images.xcassets */; };
 		834390071A7DF4F60062CBD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 834390051A7DF4F60062CBD0 /* LaunchScreen.xib */; };
 		834390131A7DF4F60062CBD0 /* login_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834390121A7DF4F60062CBD0 /* login_testTests.swift */; };
+		8343901D1A7DFA060062CBD0 /* The-Escalator-to-Sin-City.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8343901C1A7DFA060062CBD0 /* The-Escalator-to-Sin-City.jpg */; };
+		83A008801A7DFF83007CAE18 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A0087F1A7DFF83007CAE18 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 		8343900C1A7DF4F60062CBD0 /* login testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "login testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834390111A7DF4F60062CBD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		834390121A7DF4F60062CBD0 /* login_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_testTests.swift; sourceTree = "<group>"; };
+		8343901C1A7DFA060062CBD0 /* The-Escalator-to-Sin-City.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "The-Escalator-to-Sin-City.jpg"; path = "../../The-Escalator-to-Sin-City.jpg"; sourceTree = "<group>"; };
+		83A0087F1A7DFF83007CAE18 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../FBtest-master/FacebookSDK.framework"; sourceTree = "<group>"; };
+		83A008811A7E00C0007CAE18 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A008801A7DFF83007CAE18 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +68,7 @@
 				83438FF91A7DF4F60062CBD0 /* login test */,
 				8343900F1A7DF4F60062CBD0 /* login testTests */,
 				83438FF81A7DF4F60062CBD0 /* Products */,
+				83A0087F1A7DFF83007CAE18 /* FacebookSDK.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,8 +86,10 @@
 			children = (
 				83438FFC1A7DF4F60062CBD0 /* AppDelegate.swift */,
 				83438FFE1A7DF4F60062CBD0 /* ViewController.swift */,
+				83A008811A7E00C0007CAE18 /* Bridge-Header.h */,
 				834390001A7DF4F60062CBD0 /* Main.storyboard */,
 				834390031A7DF4F60062CBD0 /* Images.xcassets */,
+				8343901C1A7DFA060062CBD0 /* The-Escalator-to-Sin-City.jpg */,
 				834390051A7DF4F60062CBD0 /* LaunchScreen.xib */,
 				83438FFA1A7DF4F60062CBD0 /* Supporting Files */,
 			);
@@ -193,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				834390021A7DF4F60062CBD0 /* Main.storyboard in Resources */,
+				8343901D1A7DFA060062CBD0 /* The-Escalator-to-Sin-City.jpg in Resources */,
 				834390071A7DF4F60062CBD0 /* LaunchScreen.xib in Resources */,
 				834390041A7DF4F60062CBD0 /* Images.xcassets in Resources */,
 			);
@@ -336,9 +346,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/christopherlang/Desktop/FBtest-master",
+				);
 				INFOPLIST_FILE = "login test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Login Test/Bridge-Header.h";
 			};
 			name = Debug;
 		};
@@ -346,9 +361,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/christopherlang/Desktop/FBtest-master",
+				);
 				INFOPLIST_FILE = "login test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Login Test/Bridge-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +425,7 @@
 				834390181A7DF4F60062CBD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		834390191A7DF4F60062CBD0 /* Build configuration list for PBXNativeTarget "login testTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +434,7 @@
 				8343901B1A7DF4F60062CBD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
