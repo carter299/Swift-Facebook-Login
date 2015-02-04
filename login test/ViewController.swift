@@ -24,8 +24,9 @@ class ViewController: UIViewController, FBLoginViewDelegate {
         
         self.fbLoginView.delegate = self
         self.fbLoginView.readPermissions = ["public_profile", "email", "user_friends", "user_photos"]
-        
-        
+        //navigationController?.hidesBarsOnSwipe = true
+        //navigationController?.hidesBarsOnTap = true
+        //navigationController?.hidesBarsWhenKeyboardAppears = true
         
         
         //Below is the code if we want to use their login/sign up buttons - uncomment to see what it looks like

@@ -13,8 +13,10 @@
 		834390041A7DF4F60062CBD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834390031A7DF4F60062CBD0 /* Images.xcassets */; };
 		834390071A7DF4F60062CBD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 834390051A7DF4F60062CBD0 /* LaunchScreen.xib */; };
 		834390131A7DF4F60062CBD0 /* login_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834390121A7DF4F60062CBD0 /* login_testTests.swift */; };
-		8343901D1A7DFA060062CBD0 /* The-Escalator-to-Sin-City.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8343901C1A7DFA060062CBD0 /* The-Escalator-to-Sin-City.jpg */; };
+		837925511A81E8A6005CE3D7 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837925501A81E8A6005CE3D7 /* signUpViewController.swift */; };
+		837925531A81EB2E005CE3D7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837925521A81EB2E005CE3D7 /* LoginViewController.swift */; };
 		83A008801A7DFF83007CAE18 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A0087F1A7DFF83007CAE18 /* FacebookSDK.framework */; };
+		83AA282B1A81F803003CACFA /* iphoneapp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83AA282A1A81F803003CACFA /* iphoneapp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +40,11 @@
 		8343900C1A7DF4F60062CBD0 /* login testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "login testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834390111A7DF4F60062CBD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		834390121A7DF4F60062CBD0 /* login_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_testTests.swift; sourceTree = "<group>"; };
-		8343901C1A7DFA060062CBD0 /* The-Escalator-to-Sin-City.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "The-Escalator-to-Sin-City.jpg"; path = "../../The-Escalator-to-Sin-City.jpg"; sourceTree = "<group>"; };
+		837925501A81E8A6005CE3D7 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		837925521A81EB2E005CE3D7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		83A0087F1A7DFF83007CAE18 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../FBtest-master/FacebookSDK.framework"; sourceTree = "<group>"; };
 		83A008811A7E00C0007CAE18 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+		83AA282A1A81F803003CACFA /* iphoneapp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphoneapp.jpg; path = ../../iphoneapp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 		83438FEE1A7DF4F60062CBD0 = {
 			isa = PBXGroup;
 			children = (
+				837925521A81EB2E005CE3D7 /* LoginViewController.swift */,
+				837925501A81E8A6005CE3D7 /* signUpViewController.swift */,
 				83438FF91A7DF4F60062CBD0 /* login test */,
 				8343900F1A7DF4F60062CBD0 /* login testTests */,
 				83438FF81A7DF4F60062CBD0 /* Products */,
@@ -88,8 +94,8 @@
 				83438FFE1A7DF4F60062CBD0 /* ViewController.swift */,
 				83A008811A7E00C0007CAE18 /* Bridge-Header.h */,
 				834390001A7DF4F60062CBD0 /* Main.storyboard */,
+				83AA282A1A81F803003CACFA /* iphoneapp.jpg */,
 				834390031A7DF4F60062CBD0 /* Images.xcassets */,
-				8343901C1A7DFA060062CBD0 /* The-Escalator-to-Sin-City.jpg */,
 				834390051A7DF4F60062CBD0 /* LaunchScreen.xib */,
 				83438FFA1A7DF4F60062CBD0 /* Supporting Files */,
 			);
@@ -201,8 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83AA282B1A81F803003CACFA /* iphoneapp.jpg in Resources */,
 				834390021A7DF4F60062CBD0 /* Main.storyboard in Resources */,
-				8343901D1A7DFA060062CBD0 /* The-Escalator-to-Sin-City.jpg in Resources */,
 				834390071A7DF4F60062CBD0 /* LaunchScreen.xib in Resources */,
 				834390041A7DF4F60062CBD0 /* Images.xcassets in Resources */,
 			);
@@ -222,8 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837925531A81EB2E005CE3D7 /* LoginViewController.swift in Sources */,
 				83438FFF1A7DF4F60062CBD0 /* ViewController.swift in Sources */,
 				83438FFD1A7DF4F60062CBD0 /* AppDelegate.swift in Sources */,
+				837925511A81E8A6005CE3D7 /* signUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
