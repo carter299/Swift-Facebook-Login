@@ -53,7 +53,7 @@ class ViewController: UIViewController, FBLoginViewDelegate {
     // Facebook Delegate Methods
     
     func loginViewShowingLoggedInUser(loginView : FBLoginView!) {
-        println("User Logged In")
+        //println("User Logged In")
         
         
     }
@@ -101,11 +101,11 @@ class ViewController: UIViewController, FBLoginViewDelegate {
     }
     
     func loginViewShowingLoggedOutUser(loginView : FBLoginView!) {
-        println("User Logged Out")
+        //println("User Logged Out")
     }
     
     func loginView(loginView : FBLoginView!, handleError:NSError) {
-        println("Error: \(handleError.localizedDescription)")
+        //println("Error: \(handleError.localizedDescription)")
     }
     
     override func didReceiveMemoryWarning() {

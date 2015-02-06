@@ -13,10 +13,12 @@
 		834390041A7DF4F60062CBD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834390031A7DF4F60062CBD0 /* Images.xcassets */; };
 		834390071A7DF4F60062CBD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 834390051A7DF4F60062CBD0 /* LaunchScreen.xib */; };
 		834390131A7DF4F60062CBD0 /* login_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834390121A7DF4F60062CBD0 /* login_testTests.swift */; };
-		8373A1BB1A820EE000096F0A /* sportsbetblur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8373A1BA1A820EE000096F0A /* sportsbetblur.jpg */; };
 		837925511A81E8A6005CE3D7 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837925501A81E8A6005CE3D7 /* signUpViewController.swift */; };
 		837925531A81EB2E005CE3D7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837925521A81EB2E005CE3D7 /* LoginViewController.swift */; };
-		83A008801A7DFF83007CAE18 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A0087F1A7DFF83007CAE18 /* FacebookSDK.framework */; };
+		B823F8A91A843BDE00D35C32 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B823F8A81A843BDE00D35C32 /* FacebookSDK.framework */; };
+		B823F8BA1A84438D00D35C32 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B823F8B91A84438D00D35C32 /* SwiftyJSON.swift */; };
+		B823F8C61A8444A300D35C32 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B823F8C21A84444500D35C32 /* CryptoSwift.framework */; };
+		B823F8C81A8464AB00D35C32 /* sportsbetblur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B823F8C71A8464AB00D35C32 /* sportsbetblur.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 83438FF61A7DF4F60062CBD0;
 			remoteInfo = "login test";
+		};
+		B823F8C11A84444500D35C32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B823F8BC1A84444500D35C32 /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE45519693E190098E6F3;
+			remoteInfo = CryptoSwift;
+		};
+		B823F8C31A84444500D35C32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B823F8BC1A84444500D35C32 /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE46019693E190098E6F3;
+			remoteInfo = CryptoSwiftTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,11 +56,13 @@
 		8343900C1A7DF4F60062CBD0 /* login testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "login testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834390111A7DF4F60062CBD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		834390121A7DF4F60062CBD0 /* login_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_testTests.swift; sourceTree = "<group>"; };
-		8373A1BA1A820EE000096F0A /* sportsbetblur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sportsbetblur.jpg; path = ../../sportsbetblur.jpg; sourceTree = "<group>"; };
-		837925501A81E8A6005CE3D7 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
-		837925521A81EB2E005CE3D7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		83A0087F1A7DFF83007CAE18 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "../FBtest-master/FacebookSDK.framework"; sourceTree = "<group>"; };
+		837925501A81E8A6005CE3D7 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = signUpViewController.swift; path = ../signUpViewController.swift; sourceTree = "<group>"; };
+		837925521A81EB2E005CE3D7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
 		83A008811A7E00C0007CAE18 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+		B823F8A81A843BDE00D35C32 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		B823F8B91A84438D00D35C32 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		B823F8BC1A84444500D35C32 /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = CryptoSwift/CryptoSwift.xcodeproj; sourceTree = "<group>"; };
+		B823F8C71A8464AB00D35C32 /* sportsbetblur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sportsbetblur.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A008801A7DFF83007CAE18 /* FacebookSDK.framework in Frameworks */,
+				B823F8C61A8444A300D35C32 /* CryptoSwift.framework in Frameworks */,
+				B823F8A91A843BDE00D35C32 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +88,11 @@
 		83438FEE1A7DF4F60062CBD0 = {
 			isa = PBXGroup;
 			children = (
-				837925521A81EB2E005CE3D7 /* LoginViewController.swift */,
-				837925501A81E8A6005CE3D7 /* signUpViewController.swift */,
+				B823F8BC1A84444500D35C32 /* CryptoSwift.xcodeproj */,
 				83438FF91A7DF4F60062CBD0 /* login test */,
 				8343900F1A7DF4F60062CBD0 /* login testTests */,
 				83438FF81A7DF4F60062CBD0 /* Products */,
-				83A0087F1A7DFF83007CAE18 /* FacebookSDK.framework */,
+				B823F8A81A843BDE00D35C32 /* FacebookSDK.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,10 +108,13 @@
 		83438FF91A7DF4F60062CBD0 /* login test */ = {
 			isa = PBXGroup;
 			children = (
+				B823F8B91A84438D00D35C32 /* SwiftyJSON.swift */,
+				837925521A81EB2E005CE3D7 /* LoginViewController.swift */,
+				837925501A81E8A6005CE3D7 /* signUpViewController.swift */,
 				83438FFC1A7DF4F60062CBD0 /* AppDelegate.swift */,
 				83438FFE1A7DF4F60062CBD0 /* ViewController.swift */,
 				83A008811A7E00C0007CAE18 /* Bridge-Header.h */,
-				8373A1BA1A820EE000096F0A /* sportsbetblur.jpg */,
+				B823F8C71A8464AB00D35C32 /* sportsbetblur.jpg */,
 				834390001A7DF4F60062CBD0 /* Main.storyboard */,
 				834390031A7DF4F60062CBD0 /* Images.xcassets */,
 				834390051A7DF4F60062CBD0 /* LaunchScreen.xib */,
@@ -125,6 +146,15 @@
 				834390111A7DF4F60062CBD0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B823F8BD1A84444500D35C32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B823F8C21A84444500D35C32 /* CryptoSwift.framework */,
+				B823F8C41A84444500D35C32 /* CryptoSwiftTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +224,12 @@
 			mainGroup = 83438FEE1A7DF4F60062CBD0;
 			productRefGroup = 83438FF81A7DF4F60062CBD0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B823F8BD1A84444500D35C32 /* Products */;
+					ProjectRef = B823F8BC1A84444500D35C32 /* CryptoSwift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				83438FF61A7DF4F60062CBD0 /* login test */,
@@ -201,6 +237,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B823F8C21A84444500D35C32 /* CryptoSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptoSwift.framework;
+			remoteRef = B823F8C11A84444500D35C32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B823F8C41A84444500D35C32 /* CryptoSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CryptoSwiftTests.xctest;
+			remoteRef = B823F8C31A84444500D35C32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		83438FF51A7DF4F60062CBD0 /* Resources */ = {
@@ -210,7 +263,7 @@
 				834390021A7DF4F60062CBD0 /* Main.storyboard in Resources */,
 				834390071A7DF4F60062CBD0 /* LaunchScreen.xib in Resources */,
 				834390041A7DF4F60062CBD0 /* Images.xcassets in Resources */,
-				8373A1BB1A820EE000096F0A /* sportsbetblur.jpg in Resources */,
+				B823F8C81A8464AB00D35C32 /* sportsbetblur.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +284,7 @@
 				837925531A81EB2E005CE3D7 /* LoginViewController.swift in Sources */,
 				83438FFF1A7DF4F60062CBD0 /* ViewController.swift in Sources */,
 				83438FFD1A7DF4F60062CBD0 /* AppDelegate.swift in Sources */,
+				B823F8BA1A84438D00D35C32 /* SwiftyJSON.swift in Sources */,
 				837925511A81E8A6005CE3D7 /* signUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +411,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/christopherlang/Desktop/FBtest-master",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "login test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -372,6 +427,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/christopherlang/Desktop/FBtest-master",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "login test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
